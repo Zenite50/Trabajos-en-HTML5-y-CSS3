@@ -1,0 +1,242 @@
+<div></div>
+<!--Una etiqueta div es una etiqueta que define las divisiones lógicas existentes en el contenido 
+    de una página web. Puede utilizar etiquetas div para centrar bloques de contenido, crear efectos de 
+    columna y crear diferentes áreas de color, entre otras posibilidades.-->
+   
+    <div>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Ejemplo de uso de la etiqueta div</title>
+          <style>
+            .container {
+              width: 80%;
+              margin: 0 auto;
+              text-align: center;
+            }
+            .header {
+              background-color: lightgray;
+              padding: 20px;
+            }
+            .main-content {
+              background-color: white;
+              padding: 40px;
+            }
+            .footer {
+              background-color: lightgray;
+              padding: 20px;
+              text-align: center;
+            }
+          </style>
+        </head>
+        <body>
+      
+          <div class="container">
+      
+            <div class="header">
+              <h1>Bienvenido a mi sitio web</h1>
+            </div>
+      
+            <div class="main-content">
+              <p>Este es el contenido principal de mi sitio web.</p>
+              <img src="imagen.jpg" alt="Imagen de ejemplo">
+              <p>Aquí puedes encontrar más información sobre mis servicios y productos.</p>
+            </div>
+      
+            <div class="footer">
+              <p>Copyright &copy; 2021 - Todos los derechos reservados</p>
+            </div>
+      
+          </div>
+      
+        </body>
+      </html>
+      
+
+<main></main>
+<!--El elemento HTML <main> representa el contenido principal del <body> de un documento o aplicación. 
+  El área principal del contenido consiste en el contenido que está directamente relacionado, 
+  o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación.-->
+   
+  <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Mi página web</title>
+      </head>
+      <body>
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1>Bienvenido a mi página web</h1>
+          <p>Este es el contenido principal de mi página web</p>
+        </main>
+        <footer>
+          <p>Copyright © 2021 Mi Página Web</p>
+        </footer>
+      </body>
+    </html>
+
+<header></header>
+
+<!--El elemento de HTML Header (<header>) representa un grupo de ayudas introductorias o de navegación. 
+  Puede contener algunos elementos de encabezado, así como también un logo, 
+  un formulario de búsqueda, un nombre de autor y otros componentes.-->
+
+  <header>
+    <h1>Título de la página</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<footer></footer>
+<!--La traducción de Footer en castellano, es pie de página y hace 
+  referencia a la parte inferior de una página. 
+  En HTML, esta sección se traduce por la etiqueta < footer >,
+  que contiene todos los elementos que deben estar allí.-->
+  
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Encabezado de mi sitio web</h1>
+    </header>
+    <nav>
+      <!-- Menú de navegación aquí -->
+    </nav>
+    <section>
+      <!-- Contenido principal del sitio web aquí -->
+    </section>
+    <footer>
+      <p>Derechos de autor © 2023. Mi sitio web.</p>
+      <p>Contáctanos en info@misitioweb.com</p>
+    </footer>
+  </body>
+</html>
+
+<section></section>
+<!--El elemento de HTML <section> representa una sección genérica independiente de un documento, 
+  que no tiene un elemento semántico más específico para representarla. 
+  Las secciones siempre deben tener un título, con muy pocas excepciones.-->
+  
+<body>
+    <header>
+      <h1>Mi sitio web</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+  
+      <section id="inicio" class="destacada">
+        <h2>Bienvenidos a mi sitio web</h2>
+        <p>En este sitio encontrarás información sobre nuestra empresa y los servicios que ofrecemos.</p>
+      </section>
+  
+      <section id="nosotros" class="normal">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas innovadoras y eficientes para pequeñas y medianas empresas.</p>
+        <p>Contamos con un equipo altamente capacitado y comprometido con la satisfacción de nuestros clientes.</p>
+      </section>
+  
+      <section id="servicios" class="destacada">
+        <h2>Servicios</h2>
+        <ul>
+          <li>Desarrollo de software a medida</li>
+          <li>Implementación de tecnologías de la información</li>
+          <li>Consultoría y asesoramiento tecnológico</li>
+          <li>Mantenimiento y soporte técnico</li>
+        </ul>
+      </section>
+  
+      <section id="contacto" class="normal">
+        <h2>Contacto</h2>
+        <form action="enviar_mensaje.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+  
+    </main>
+    <footer>
+      <p>Todos los derechos reservados © 2023</p>
+    </footer>
+  </body>
+
+<article></article>
+<!--La etiqueta <article> en HTML5 es utilizada para definir un contenido 
+  autónomo y de importancia en una página web. 
+  Por ejemplo, una entrada de blog, una revisión, una publicación en un foro, etc.-->
+  
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de uso de la etiqueta article en HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a mi blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introducción</a></li>
+        <li><a href="#main-content">Contenido principal</a></li>
+        <li><a href="#conclusion">Conclusión</a></li>
+      </ul>
+    </nav>
+    <main>
+
+      <article id="intro">
+        <header>
+          <h2>Introducción al artículo</h2>
+        </header>
+        <p>Este es un artículo de ejemplo que muestra cómo utilizar la etiqueta article en HTML5.</p>
+      </article>
+
+      <article id="main-content">
+        <header>
+          <h2>Contenido principal</h2>
+        </header>
+        <p>Aquí es donde se incluye el contenido principal del artículo.</p>
+        <p>Puede incluir texto, imágenes, vídeos, tablas, etc.</p>
+      </article>
+
+      <article id="conclusion">
+        <header>
+          <h2>Conclusión</h2>
+        </header>
+        <p>En conclusión, la etiqueta article es una herramienta útil para mejorar la estructura y accesibilidad de un sitio web.</p>
+      </article>
+
+    </main>
+    <footer>
+      <p>&copy; 2023 Por Mi Blog</p>
+    </footer>
+  </body>
+</html>
+
+
