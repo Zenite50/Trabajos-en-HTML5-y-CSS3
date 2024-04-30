@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(16, 25, 66);
+    font-family: Arial, "Trebuchet", Helvetica, sans-serif;
+}
+ 
+h1{
+    color:white;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+  color:cornsilk;
+  /*Aquí controlamos el tamaño de la letra*/
+  font-size: 15 px;
+
+}
+
+div h2{
+    color:rgb(159, 173, 202);
+}
